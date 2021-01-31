@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Compression</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+    <div class="container">
+        <!-- box -->
+        <div class="cover">
+            <!-- cover--header -->
+            <header>
+                <!-- title -->
+                <div class="title">فشرده سازی کد های سی‌اس‌اس</div>
+                <div class="text_container">
+                    <!-- textarea and submit button -->
+                    <textarea id="text_box" placeholder="Enter your css code..." autofocus></textarea>
+                    <div class="file_container">
+                        <div>
+                            <input type="file" id="file_input" class="file_input" accept=".css">
+                            <button class="file_input_btn">فایل را انتخاب کنید</button>
+
+                        </div>
+                        <label for="file_input">فایل های css خود را بکشید و اینجا رها کنید!</label>
+                    </div>
+                    <div class="output_tools">
+                        <!-- <canvas id="progrerss"></canvas> -->
+                        <div class="output_container">
+                            <button class="copy_output">کپی کردن</button>
+                            <button class="get_file">دریافت فایل</button>
+                            <button class="reset">فشرده سازی جدبد</button>
+                        </div>
+                    </div>
+                    <button class="submit">فشرده سازی کد ها</button>
+                    <!-- toll bar -->
+                    <div class="tool_bar">
+                        <!-- toll bar btns -->
+                        <button class="pasteText" title="چسباندن"><i class="material-icons">content_paste</i></button>
+                        <button class="clearAll" title="پاک کردن همه"><i class="material-icons">clear_all</i></button>
+                        <button class="selectAll" title="اتخاب همه"><i class="material-icons">select_all</i></button>
+                        <button class="copyAll" title="کپی "><i class="material-icons">content_copy</i></button>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+</body>
+
+
+
+
+    <!-- scripts link -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="js/script.js"></script>
+</html>
